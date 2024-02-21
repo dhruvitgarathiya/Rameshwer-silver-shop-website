@@ -1,0 +1,95 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for navigation */
+nav {
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 350px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  border: 2px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  background-color: blueviolet;
+}
+
+/* Dropdown menu styles */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: aqua;
+}
+
+.dropdown-menu li {
+  display: block;
+}
+
+.dropdown-menu li a {
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.head1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.head6 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.conta {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.img {
+  flex: 0;
+  padding: 20px;
+}
+
+.imt {
+  flex: 1;
+}
+
+.newconta {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.newsbox {
+  width: calc(33.33% - 20px); /* Adjust as needed for spacing */
+  margin-bottom: 20px; /* Add space between news boxes */
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.newsbox img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
